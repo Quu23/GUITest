@@ -24,7 +24,17 @@ namespace GUITest
             Bitmap p = new Bitmap(1, 1);
             p.SetPixel(0, 0, Color.Black);
             g.DrawImageUnscaled(p, 100, 100);
-            g.FillEllipse(Brushes.Black, 100, 100,100,100);
+            g.FillRectangle(Brushes.Black, 100, 100,100,100);
+            g.FillRectangle(Brushes.Cyan, 250, 100, 100, 100);
+            g.FillRectangle(Brushes.Yellow, 100, 250, 100, 100);
+            g.FillRectangle(Brushes.Red, 500, 100, 150, 100);
+            g.FillRectangle(Brushes.Blue, 500, 250, 100, 150);
+            g.FillRectangle(Brushes.OrangeRed, 100, 100, 100, 100);
+
+
+
+
+
         }
     }
 }
